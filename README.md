@@ -11,7 +11,7 @@ Works best with ``termguicolors`` enabled.
 <details>
 <summary>Click to see all screenshots</summary>
 <br>
-![screen](./media/nvim-rdark.png)
+<img src="./media/nvim-rdark.png">
 </details>
 
 
