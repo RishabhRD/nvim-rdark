@@ -17,7 +17,7 @@ Plug 'tjdevries/colorbuddy.vim'
 Plug 'RishabhRD/nvim-rdark'
 
 " And then somewhere in your init.vim, to set the colorscheme
-lua require('colorbuddy').colorscheme('nvim-gruvbox')
+lua require('colorbuddy').colorscheme('nvim-rdark')
 ```
 
 ## Contribute
