@@ -11,6 +11,9 @@ Works best with ``termguicolors`` enabled.
 <details>
 <summary>Click to see all screenshots</summary>
 <br>
+<img src="./media/nvim-rdark-cpp.png">
+<img src="./media/nvim-rdark-js.png">
+<img src="./media/nvim-rdark-readme.png">
 <img src="./media/nvim-rdark.png">
 </details>
 
