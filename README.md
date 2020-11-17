@@ -37,7 +37,7 @@ Feel free to raise any issue or create a pull request if you feel something is
 missing or if any component feels ugly to you. :smile:
 
 The plugin is developed upon
-[colorbuddy](https://github.com/tjdevries/colorbuddy).  So, it's very easy to
+[colorbuddy](https://github.com/tjdevries/colorbuddy.nvim).  So, it's very easy to
 integrate treesitter highlighting with the plugin.  Currently, it doesn't
 include any treesitter highlighting for any language.
 
