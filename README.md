@@ -8,7 +8,12 @@ Works best with ``termguicolors`` enabled.
 
 ## Screenshot
 
+<details>
+<summary>Click to see all screenshots</summary>
+<br>
 ![screen](./media/nvim-rdark.png)
+</details>
+
 
 ## Installation
 
