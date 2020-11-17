@@ -38,11 +38,11 @@ missing or if any component feels ugly to you. :smile:
 
 The plugin is developed upon
 [colorbuddy](https://github.com/tjdevries/colorbuddy.nvim).  So, it's very easy to
-integrate treesitter highlighting with the plugin.  Currently, it doesn't
-include any treesitter highlighting for any language.
+integrate treesitter highlighting with the plugin.
 
-But I would include treesitter highlighting for the languages, I feel current
-highlighting looks ugly. (Yeah! it would happen only if I would use that
-language :smile:). However, if you are using the language and you want to
-include the treesitter highlighting then you can raise a PR. It would be
-pleasure to merge it.
+Currently, partial treesitter-highlighting is supported. However, because I am
+not a big coloring expert (I rarely can imagine a good colorscheme with each
+component in mind :smile:). So, it maybe possible that current treesitter
+highlighting is really messed up. If you feel so, feel free to create a PR. I
+would be glad to merge it (If PR's color configuration doesn't hurt my eyes
+:smile:).
