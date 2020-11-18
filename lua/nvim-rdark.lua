@@ -52,7 +52,7 @@ Group.new('PmenuSel',      colors.cursor_line_bg,  colors.blue,            no)
 Group.new('Pmenu',         colors.syntax_fg,       colors.cursor_line_bg,  no)
 Group.new('TabLine',       colors.syntax_fg,       colors.cursor_line_bg,  no)
 Group.new('TabLineFill',   colors.white,           colors.cursor_line_bg,  no)
-Group.new('TabLineSel',    colors.cursor_line_bg,  colors.blue,            no)
+Group.new('TabLineSel',    colors.white,  colors.grey,            no)
 Group.new('Visual',        colors.none,            colors.visual,          no)
 
 
