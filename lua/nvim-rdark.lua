@@ -1,6 +1,7 @@
 local Color, colors, Group, _, styles = require('colorbuddy').setup()
 local no = styles.NONE
 local bold = styles.BOLD
+local none = colors.none
 
 
 
@@ -63,8 +64,8 @@ Group.new('Visual',        colors.none,            colors.visual,          no)
 --Standard Syntax Highlighting--
 --------------------------------
 
-Group.new('Comment',  colors.comment_fg,  colors.syntax_bg,  no)
-Group.new('Todo',     colors.blue,        colors.syntax_bg,  styles.BOLD)
+Group.new('Comment',  colors.comment_fg,  none,  no)
+Group.new('Todo',     colors.blue,        none,  styles.BOLD)
 
 
 
