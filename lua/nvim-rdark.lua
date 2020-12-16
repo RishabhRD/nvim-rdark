@@ -36,6 +36,7 @@ Color.new('FinderSelectionFg',    '#7f8182')
 Color.new('FinderListBorder',     '#12325e')
 Color.new('FinderPreviewBorder',  '#12325e')
 Color.new('FinderPromptBorder',   '#12325e')
+Color.new('FinderListHighlight',  '#9e9e9e')
 
 
 
@@ -136,7 +137,7 @@ Group.new('TSVariable',            colors.syntax_fg,  colors.none,  no)
 Group.new('FinderListBorder',       colors.FinderListBorder,     colors.none,               no)
 Group.new('FinderPreviewBorder',    colors.FinderPreviewBorder,  colors.none,               no)
 Group.new('FinderPromptBorder',     colors.FinderPromptBorder,   colors.none,               no)
-Group.new('FinderListHighlight',    colors.white,                colors.none,               no)
+Group.new('FinderListHighlight',    colors.FinderListHighlight,  colors.none,               no)
 Group.new('FinderListSelection',    colors.none,                 colors.FinderSelectionBg,  no)
 Group.new('FinderListMatch',        colors.orange,               colors.none,               styles.bold)
 Group.new('FinderPromptCommand',    colors.red,                  colors.none,               styles.bold)
