@@ -31,6 +31,11 @@ Color.new('comment_fg',      '#454545')
 Color.new('cursor_line_bg',  '#181b1f')
 Color.new('visual',          '#253340')
 
+Color.new('FinderSelectionBg',    '#202945')
+Color.new('FinderSelectionFg',    '#7f8182')
+Color.new('FinderListBorder',     '#96faf2')
+Color.new('FinderPreviewBorder',  '#96fab1')
+Color.new('FinderPromptBorder',   '#96fab1')
 
 
 
@@ -122,3 +127,15 @@ Group.new('TSVariable',            colors.syntax_fg,  colors.none,  no)
 --  Group.new('TSUnderline',        colors.hue_6_2,  colors.none,  no)
 --  Group.new('TSURI',              colors.hue_6_2,  colors.none,  no)
 --  Group.new('TSVariableBuiltin',  colors.hue_6_2,  colors.none,  no)
+
+
+
+
+-- nvim-finder highlighting
+
+-- Group.new('FinderListBorder', colors.FinderListBorder, colors.none, no)
+-- Group.new('FinderPreviewBorder', colors.FinderPreviewBorder, colors.none, no)
+-- Group.new('FinderPromptBorder', colors.FinderPromptBorder, colors.none, no)
+Group.new('FinderListHighlight',  colors.white,              colors.none,               no)
+Group.new('FinderListSelection',  colors.FinderSelectionFg,  colors.FinderSelectionBg,  no)
+Group.new('FinderListMatching',   colors.orange,             colors.none,               styles.bold)
