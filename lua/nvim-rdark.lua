@@ -33,9 +33,9 @@ Color.new('visual',          '#253340')
 
 Color.new('FinderSelectionBg',    '#202945')
 Color.new('FinderSelectionFg',    '#7f8182')
-Color.new('FinderListBorder',     '#96faf2')
-Color.new('FinderPreviewBorder',  '#96fab1')
-Color.new('FinderPromptBorder',   '#96fab1')
+Color.new('FinderListBorder',     '#12325e')
+Color.new('FinderPreviewBorder',  '#12325e')
+Color.new('FinderPromptBorder',   '#12325e')
 
 
 
@@ -133,9 +133,11 @@ Group.new('TSVariable',            colors.syntax_fg,  colors.none,  no)
 
 -- nvim-finder highlighting
 
--- Group.new('FinderListBorder', colors.FinderListBorder, colors.none, no)
--- Group.new('FinderPreviewBorder', colors.FinderPreviewBorder, colors.none, no)
--- Group.new('FinderPromptBorder', colors.FinderPromptBorder, colors.none, no)
-Group.new('FinderListHighlight',  colors.white,              colors.none,               no)
-Group.new('FinderListSelection',  colors.FinderSelectionFg,  colors.FinderSelectionBg,  no)
-Group.new('FinderListMatching',   colors.orange,             colors.none,               styles.bold)
+Group.new('FinderListBorder',       colors.FinderListBorder,     colors.none,               no)
+Group.new('FinderPreviewBorder',    colors.FinderPreviewBorder,  colors.none,               no)
+Group.new('FinderPromptBorder',     colors.FinderPromptBorder,   colors.none,               no)
+Group.new('FinderListHighlight',    colors.white,                colors.none,               no)
+Group.new('FinderListSelection',    colors.none,                 colors.FinderSelectionBg,  no)
+Group.new('FinderListMatch',        colors.orange,               colors.none,               styles.bold)
+Group.new('FinderPromptCommand',    colors.red,                  colors.none,               styles.bold)
+Group.new('FinderPromptHighlight',  colors.cyan,                 colors.none,               styles.bold)
