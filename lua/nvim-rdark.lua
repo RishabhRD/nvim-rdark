@@ -36,7 +36,7 @@ Color.new('FinderSelectionFg',    '#7f8182')
 Color.new('FinderListBorder',     '#12325e')
 Color.new('FinderPreviewBorder',  '#12325e')
 Color.new('FinderPromptBorder',   '#12325e')
-Color.new('FinderListHighlight',  '#9e9e9e')
+Color.new('FinderListHighlight',  '#707070')
 
 
 
